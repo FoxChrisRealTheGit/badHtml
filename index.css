@@ -1,0 +1,43 @@
+.floatedR{
+    float: right;
+}
+.floatedL{
+    float: left;
+}
+
+.hovered:hover{
+    color: white;
+}
+
+.focused{
+    text-overflow: clip;
+}
+
+input:focus{
+    border-color: tomato;
+    background-color: teal;
+}
+.divness p:nth-child(4){
+    color: blue;
+    font-size: 20px;
+}
+div p{
+    color: hotpink;
+}
+
+h5 + h4{
+    color: lightgray;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+    body{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    body{
+        font-size: 40px;
+    }
+}
